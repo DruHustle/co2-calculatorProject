@@ -2,7 +2,7 @@
 
 The program is a console application that returns the CO2-equivalent of emissions produced when traveling a given distance using a given transportation method.
 The application was developed with Visual Studio 2019 and the target Framework is .NET Core 3.1. 
-To install Visual Studio 2019 [install dotnetcore](https://visualstudio.microsoft.com/vs/community/).
+To install Visual Studio 2019 click [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/).
 
 
 ##Usage
