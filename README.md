@@ -21,8 +21,9 @@ dotnet build
 dotnet run <argument> <option>
 ```
 ####Executing the project
+On the CLI, "cd" to the folder with the executable file.
 ```
-co2-calculator.exe <argument> <option>
+$ ./co2-calculator.exe <argument> <option>
 ```
 ####Testing the project
 ```
