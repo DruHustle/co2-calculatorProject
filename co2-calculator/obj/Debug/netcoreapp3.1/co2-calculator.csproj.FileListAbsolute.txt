@@ -33,7 +33,6 @@ C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\bin\Deb
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\bin\Debug\netcoreapp3.1\co2-calculator.dll
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\bin\Debug\netcoreapp3.1\co2-calculator.pdb
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\bin\Debug\netcoreapp3.1\System.CommandLine.dll
-C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Debug\netcoreapp3.1\co2-calculator.csprojAssemblyReference.cache
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Debug\netcoreapp3.1\co2-calculator.AssemblyInfoInputs.cache
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Debug\netcoreapp3.1\co2-calculator.AssemblyInfo.cs
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Debug\netcoreapp3.1\co2-calculator.csproj.CoreCompileInputs.cache
@@ -41,3 +40,4 @@ C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Deb
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Debug\netcoreapp3.1\co2-calculator.dll
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Debug\netcoreapp3.1\co2-calculator.pdb
 C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Debug\netcoreapp3.1\co2-calculator.genruntimeconfig.cache
+C:\Users\Andrew Gotora\source\repos\co2-calculatorProject\co2-calculator\obj\Debug\netcoreapp3.1\co2-calculator.csprojAssemblyReference.cache

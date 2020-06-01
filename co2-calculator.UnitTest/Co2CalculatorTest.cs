@@ -1,5 +1,6 @@
 using Xunit;
 using Calculator.Methods;
+using Xunit.Sdk;
 
 //Installed xunit.runner.console v2.4.1
 
@@ -201,6 +202,33 @@ namespace Co2calculator.UnitTest
             //-Arsert
             Assert.Equal(expectedValidTrip, actualValidTrip);
         }
+
+        [Theory]
+        [InlineData(171, 1, 0.001, double.MaxValue, "kg", 3.07405526061456E+307, true)]
+        [InlineData(171, 1, 0.001, 15, "kg",2.6 ,true)]
+        [InlineData(282, 1, 0.001, 1800.5, "kg", 507.7, true)]
+        [InlineData(6, 0.001, 1, 14500, "g", 87, true)]
+        [InlineData(6, 0.001, 0.001, 14500, "kg", 0.1, true)]        
+        [InlineData(142, 1, 0.001, 34, "kg", 4.8, true)]
+        [InlineData(154, 1, 0.001, 76, "kg", 11.7, true)]
+        [InlineData(173, 1, 0.001, 32, "kg", 5.5, true)]
+        [InlineData(50, 0.001, 1, 100, "kg", 5, true)]
+        [InlineData(192, 1, 0.001, 23, "kg", 4.4, true)]
+        [InlineData(110, 1, 0.001, 17, "kg", 1.9, true)]
+        [InlineData(58, 1, 0.001, 35, "kg", 2, true)]
+        [InlineData(209, 1, 0.001, 68, "kg", 14.2, true)]
+        [InlineData(282, 1, 0.001, 53, "kg", 14.9, true)]
+        [InlineData(126, 1, 0.001, 22, "kg", 2.8, true)]
+        [InlineData(73, 1, 0.001, 67, "kg", 4.9, true)]
+        [InlineData(27, 1, 0.001, 9, "kg", 0.2, true)]
+        [InlineData(6, 1, 0.001, 1225, "g", 7.4, true)]
+        public void CalculateEmission_ValidEntries(double emissionValue, double distanceMultiplicationFactor, double massMultiplicationFactor, double distance, string massOutputUnits, double massEmissionExpected, bool validTrip)
+        {
+            //-Act
+            Methods.CalculateEmission(emissionValue, distanceMultiplicationFactor, massMultiplicationFactor, distance, massOutputUnits, out double massEmissionActual, validTrip);
+            //-Arsert
+            Assert.Equal(massEmissionExpected, massEmissionActual);
+        }        
 
     }
 }

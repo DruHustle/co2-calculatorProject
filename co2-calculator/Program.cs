@@ -55,7 +55,7 @@ namespace Co2calculator
                     Methods.CheckTripValidity(distaceValidTrip, unitOfDistanceValidTrip, unitOfMassValidTrip, out bool validTrip);
 
                     //Calculate the CO2 emission.
-                    Methods.CalculateEmission(emissionValue, distanceMultiplicationFactor, massMultiplicationFactor, distance, massOutputUnits, validTrip);
+                    Methods.CalculateEmission(emissionValue, distanceMultiplicationFactor, massMultiplicationFactor, distance, massOutputUnits, out double massEmission, validTrip);
                 });
             }
             catch (Exception ex)

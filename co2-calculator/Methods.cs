@@ -143,10 +143,8 @@
             validTrip = distaceValidTrip && unitOfDistanceValidTrip && unitOfMassValidTrip;
         }
 
-        public static void CalculateEmission(double emissionValue, double distanceMultiplicationFactor, double massMultiplicationFactor, double distance, string massOutputUnits, bool validTrip)
+        public static void CalculateEmission(double emissionValue, double distanceMultiplicationFactor, double massMultiplicationFactor, double distance, string massOutputUnits, out double massEmission, bool validTrip)
         {
-            double massEmission;
-
             //Calculate the CO2-equivalent
             massEmission = emissionValue * distanceMultiplicationFactor * massMultiplicationFactor * distance;
             massEmission = Math.Round(massEmission, 1);
