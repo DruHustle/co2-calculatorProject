@@ -1,7 +1,4 @@
-using System.Collections.Generic;
 using Xunit;
-using System;
-using System.IO;
 using Calculator.Methods;
 
 //Installed xunit.runner.console v2.4.1
@@ -115,7 +112,6 @@ namespace Co2calculator.UnitTest
             //-Arsert
             Assert.Equal(expected, actual);
             Assert.Equal(expectedBool, actualBool);
-
         }
 
         [Theory]
