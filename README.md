@@ -3,7 +3,7 @@
 The program is a console application that returns the CO2-equivalent of emissions produced when traveling a given distance using a given transportation method.
 The application was developed with Visual Studio 2019 and the target Framework is .NET Core 3.1. 
 To install Visual Studio 2019 click [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/).
-
+Nuget package libraries manually installed are System.CommadLine v2.0.0-beta1.20253.1 and xunit.runner.console v2.4.1. The other package libraries; namely coverlet.collector, Microsoft.NET.Test.Sdk, xunit and xunit.runner.visualstudio were installed by default.
 
 ##Usage
 Users will interact with the application through the use of commands on the CLI (Command Line Interface).
